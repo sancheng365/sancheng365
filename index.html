@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="sancheng365 艺术家具官网，展示兼具雕塑感、舒适度与现代工艺的高端家具系列。"
+    />
+    <title>sancheng365 艺术家具</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#hero" aria-label="sancheng365 首页">sancheng365</a>
+      <nav class="nav-links" aria-label="网站导航">
+        <a href="#collection">系列</a>
+        <a href="#craft">工艺</a>
+        <a href="#gallery">空间</a>
+        <a href="#visit">预约</a>
+      </nav>
+      <a class="nav-cta" href="#visit">预约品鉴</a>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section-shell">
+        <p class="eyebrow">艺术家具 · 新季发布</p>
+        <h1>让家的中心，成为一件安静的艺术品。</h1>
+        <p class="hero-copy">
+          以克制线条、天然材质和人体工学比例，打造可被日常使用的雕塑家具。
+        </p>
+        <div class="hero-actions" aria-label="主要操作">
+          <a class="button button-primary" href="#collection">探索系列</a>
+          <a class="button button-secondary" href="#craft">了解工艺</a>
+        </div>
+        <div class="hero-stage" aria-label="艺术家具主视觉">
+          <div class="furniture-art furniture-art-main">
+            <span class="sofa-back"></span>
+            <span class="sofa-seat"></span>
+            <span class="sofa-leg sofa-leg-left"></span>
+            <span class="sofa-leg sofa-leg-right"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="collection" class="collection section-shell">
+        <p class="eyebrow">Signature Collection</p>
+        <h2>三条产品线，覆盖不同生活场景。</h2>
+        <div class="product-grid">
+          <article class="product-card product-card-large">
+            <div class="product-visual lounge-visual" aria-hidden="true"></div>
+            <div class="product-content">
+              <span>01 / Lounge</span>
+              <h3>云弧沙发</h3>
+              <p>低重心弧面结构，适合客厅、会客区与开放式书房。</p>
+            </div>
+          </article>
+          <article class="product-card dark-card">
+            <div class="product-visual chair-visual" aria-hidden="true"></div>
+            <div class="product-content">
+              <span>02 / Chair</span>
+              <h3>月影单椅</h3>
+              <p>一体式靠背与悬浮坐面，兼具装置感与包裹感。</p>
+            </div>
+          </article>
+          <article class="product-card warm-card">
+            <div class="product-visual table-visual" aria-hidden="true"></div>
+            <div class="product-content">
+              <span>03 / Table</span>
+              <h3>岩面茶几</h3>
+              <p>天然石纹与金属底座形成轻盈对比，适合现代空间陈列。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="craft" class="craft section-shell">
+        <div class="split-copy">
+          <p class="eyebrow">Design & Craft</p>
+          <h2>看不见的细节，决定每天触摸它的感受。</h2>
+        </div>
+        <div class="feature-row">
+          <article>
+            <strong>0.5°</strong>
+            <h3>坐姿角度微调</h3>
+            <p>通过多轮打样校准靠背、坐深和扶手高度，让雕塑感不牺牲舒适度。</p>
+          </article>
+          <article>
+            <strong>12</strong>
+            <h3>道表面处理</h3>
+            <p>木、皮、石与金属分别采用不同工艺，呈现细腻、耐看的自然肌理。</p>
+          </article>
+          <article>
+            <strong>365</strong>
+            <h3>天生活测试</h3>
+            <p>以真实居家频率验证承托、回弹、耐磨和清洁表现。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery section-shell">
+        <p class="eyebrow">Interior Gallery</p>
+        <h2>在不同光线与空间里，保持从容。</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item-wide">
+            <div class="room room-day" aria-hidden="true"></div>
+            <figcaption>晨光客厅 / 云弧沙发组合</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <div class="room room-night" aria-hidden="true"></div>
+            <figcaption>静谧书房 / 月影单椅</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <div class="room room-stone" aria-hidden="true"></div>
+            <figcaption>艺廊玄关 / 岩面茶几</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="visit" class="visit section-shell">
+        <div>
+          <p class="eyebrow">Private Appointment</p>
+          <h2>预约一场私人空间品鉴。</h2>
+          <p>
+            我们将根据户型、光线、动线和收藏偏好，提供家具搭配与材质建议。
+          </p>
+        </div>
+        <form class="visit-form" aria-label="预约表单">
+          <label>
+            姓名
+            <input type="text" name="name" placeholder="请输入姓名" />
+          </label>
+          <label>
+            联系方式
+            <input type="tel" name="phone" placeholder="手机号或微信" />
+          </label>
+          <label>
+            感兴趣的系列
+            <select name="collection">
+              <option>云弧沙发</option>
+              <option>月影单椅</option>
+              <option>岩面茶几</option>
+              <option>全屋搭配</option>
+            </select>
+          </label>
+          <button class="button button-primary" type="submit">提交预约</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 sancheng365 Art Furniture</span>
+      <a href="#hero">返回顶部</a>
+    </footer>
+  </body>
+</html>
